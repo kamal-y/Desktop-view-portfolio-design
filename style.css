@@ -494,7 +494,7 @@ a{
     transition: 0.5s;
 }
 
-@media (max-width:1300px) {
+@media (max-width:850px) {
     .project-header {
       padding-top: 30px;
       color: var(--bgOrange);
