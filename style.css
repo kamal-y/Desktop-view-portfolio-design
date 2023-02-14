@@ -81,7 +81,7 @@ a{
     position: relative;
     /* max-width:1200px; */
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     gap: 5rem;
@@ -106,6 +106,7 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width:50%;
     gap: 2rem;
 }
 
@@ -131,6 +132,10 @@ a{
     font-weight: 500;
 }
 
+#btn{
+width: 12rem;
+}
+
 /* <-----------------------------------------------------button-CSS------------------------------------------------------------------> */
 
 .pink-button{
@@ -144,6 +149,7 @@ a{
     cursor: pointer;
     transition: all 0.5s;
     font-weight: 500;
+    width:auto;
     z-index: 1;
 }
 
@@ -557,8 +563,8 @@ a{
     /* overflow-y: hidden; */
     display: flex;
     padding: 5rem;
-    margin: auto 10rem;
-    gap: 30px;
+    margin: auto 6rem;
+    gap: 2rem;
 }
 
 .skills-fade-text{
@@ -568,7 +574,7 @@ a{
     font-size: 7em;
     color:rgb(231,231,231);
     
-    bottom: -3.5%;
+    bottom: -4.7%;
     right: 10%;
     font-weight: bold;
     transition: all 3s;
@@ -591,7 +597,8 @@ a{
 }
 
 .skills-logo{
-    width: 80px;
+    width: 4rem;
+    height: 4rem;
     cursor: pointer;
 }
 
@@ -744,7 +751,7 @@ footer{
 .footer-faded-text{
     position: absolute;
     left: 0;
-    bottom: -1rem;
+    bottom: -5%;
     user-select: none;
     font-size: 5em;
     color: #535c87;
@@ -782,6 +789,4 @@ footer{
 #footer-section a{
     color: whitesmoke;
 }
-/* <-----------------------------------------------------Animation-hero-section------------------------------------------------------------------> */  
-
-/* <-----------------------------------------------------Animation-hero-section------------------------------------------------------------------> */  
+/* <-----------------------------------------------------x-x-x-x------------------------------------------------------------------/*
